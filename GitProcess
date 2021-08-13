@@ -24,6 +24,8 @@ Git Process flow:
 14.check the git status
 15.again check to confirm back the status
 16. git commit -m "This is my first commit" test.txt
-17.git push -u origin main hello
+17.git push -u origin main
 
-helloo
+
+18.completed
+
