@@ -1,0 +1,28 @@
+Git Process flow:
+1.Install git from git hub
+2.open the git command prompt
+3.create a directory in c drive
+4.cd git
+5.configure your user name and email
+	git config --global user.name Tirumala7
+	git config --global user.mail tirumala.ece10@gmail.com
+6.clone your git main project to your local file
+	git clone https://github.com/Tirumala7/TestGit.git   (copy link from the git project)
+7.you will see the created project TestGit folder in your /c/git directory
+8.create a new file with name test.txt
+9.git add test.txt
+10.git status
+	On branch main
+	Your branch is up to date with 'origin/main'.
+
+	Changes to be committed:
+	  (use "git restore --staged <file>..." to unstage)
+			new file:   test.txt
+11. git commit -m "This is my first commit" test.txt
+12. git push -u origin main
+13.modify the file
+14.check the git status
+15.again check to confirm back the status
+16. git commit -m "This is my first commit" test.txt
+17.git push -u origin main
+
